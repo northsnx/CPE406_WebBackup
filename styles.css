@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Noto Sans","Noto Sans Thai", Arial, sans-serif;
     background-image: url('https://building.spu.ac.th/uploads/Slidemain/20171130155703SE0I4zZ1.jpg'); /* ใช้ภาพพื้นหลังที่ต้องการ */
     background-size: cover;
     color: white;
