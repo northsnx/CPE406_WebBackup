@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ชมรมคนรักเฉาก๊วย</title>
+    <link rel="icon" href="C:\Users\Acer\Desktop\CPE406 SENSEOR\CPE406_WebBackup\img\Screenshot_2024-11-10_054505-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="\img\logo.png" alt="Logo">
+            <h1>ชมรมคนรักเฉาก๊วย</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" style="color: #CF4F00;">Dashborad</a></li>
+                <li><a href="OurTeam.html">Our Team</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <div class="menu">
+        <div>
+            <h1>Main Dashboard</h1>
+        </div>
+    </div>
+
+    
+    
+    <div class="dashboard">
+        <div class="card">
+            <div class="left">
+                <img src="\img\weater.jpg" alt="Night">
+            </div>
+            <div class="right">
+                <div class="data">
+                    <div>
+                        <h2>Temp</h2>
+                        <h3>157.29°C</h3>
+                    </div>
+                    <div>
+                        <h2>Humidity</h2>
+                        <h3>157.29°C</h3>
+                    </div>
+                </div>
+                <br>
+                <div class="data">
+                    <div>
+                        <h2>Graph Display</h2>
+                        <img src="/img/Graph.png" alt="Graph Display">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- / / ทดลองเชื่อมเซ็นเซอร์กับ ESP8266 / / -->
+    <!-- <h1>Sensor Data from Wokwi</h1>
+    <p>Value: <span id="sensor-value">--</span></p>
+  
+    <script>
+      // เชื่อมต่อ WebSocket
+      const socket = new WebSocket('ws://localhost:8080'); // ใช้ URL ของ WebSocket Server
+  
+      socket.onmessage = (event) => {
+        const data = JSON.parse(event.data);
+        document.getElementById('sensor-value').innerText = data.sensorValue;
+      };
+    </script> -->
+
+
+
+    <footer>
+        <p>&copy; 2024 ชมรมคนรักเฉาก๊วย | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+
+
+</html>
